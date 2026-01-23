@@ -28,22 +28,51 @@ export default async function handler(req, res) {
       });
     }
 
+    // Log the access key (first 10 chars only for security)
+    const accessKey = process.env.WEB3FORMS_ACCESS_KEY;
+    console.log('Access Key (first 10 chars):', accessKey ? accessKey.substring(0, 10) + '...' : 'NOT SET');
+
     // Send to Web3Forms API (server-side)
     const response = await fetch('https://api.web3forms.com/submit', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
+        'Accept': 'application/json',
       },
       body: JSON.stringify({
-        access_key: process.env.WEB3FORMS_ACCESS_KEY, // From Vercel environment variable
+        access_key: accessKey,
         name: name,
         email: email,
         message: message,
-        subject: '🚀 New Contact from Portfolio - ' + name, // Customizable subject
-        from_name: 'Portfolio Contact Form', // Sender name
-        replyto: email, // Reply-To header (visitor's email)
+        subject: '🚀 New Contact from Portfolio - ' + name,
+        from_name: 'Portfolio Contact Form',
+        replyto: email,
       }),
     });
+
+    console.log('Web3Forms Response Status:', response.status);
+    console.log('Web3Forms Response Headers:', response.headers.get('content-type'));
+
+    // Check if response is OK
+    if (!response.ok) {
+      const text = await response.text();
+      console.error('Web3Forms Error Response:', text);
+      return res.status(500).json({
+        success: false,
+        message: 'Failed to send message. Status: ' + response.status
+      });
+    }
+
+    // Check if response is JSON
+    const contentType = response.headers.get('content-type');
+    if (!contentType || !contentType.includes('application/json')) {
+      const text = await response.text();
+      console.error('Non-JSON Response from Web3Forms:', text.substring(0, 200));
+      return res.status(500).json({
+        success: false,
+        message: 'Invalid response from email service'
+      });
+    }
 
     const data = await response.json();
 
