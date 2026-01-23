@@ -2,7 +2,10 @@
 export default async function handler(req, res) {
   // Only allow POST requests
   if (req.method !== 'POST') {
-    return res.status(405).json({ message: 'Method not allowed' });
+    return res.status(405).json({ 
+      success: false,
+      message: 'Method not allowed' 
+    });
   }
 
   try {
@@ -13,6 +16,15 @@ export default async function handler(req, res) {
       return res.status(400).json({ 
         success: false, 
         message: 'All fields are required' 
+      });
+    }
+
+    // Check if access key exists
+    if (!process.env.WEB3FORMS_ACCESS_KEY) {
+      console.error('WEB3FORMS_ACCESS_KEY environment variable is not set');
+      return res.status(500).json({ 
+        success: false, 
+        message: 'Server configuration error. Please contact administrator.' 
       });
     }
 
@@ -41,16 +53,17 @@ export default async function handler(req, res) {
         message: 'Message sent successfully!' 
       });
     } else {
+      console.error('Web3Forms API Error:', data);
       return res.status(500).json({ 
         success: false, 
-        message: 'Failed to send message' 
+        message: data.message || 'Failed to send message' 
       });
     }
   } catch (error) {
-    console.error('Error:', error);
+    console.error('Server Error:', error.message, error.stack);
     return res.status(500).json({ 
       success: false, 
-      message: 'Server error' 
+      message: 'Server error: ' + error.message 
     });
   }
 }
