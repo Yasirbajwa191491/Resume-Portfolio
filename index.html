@@ -476,11 +476,7 @@
                 <div class="col-lg-8">
                     <div class="contact-form-card">
                         <h4 class="contact-title">Send a message</h4>
-                        <form action="https://api.web3forms.com/submit" method="POST">
-                            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
-                            <input type="hidden" name="subject" value="New Contact from Portfolio">
-                            <input type="hidden" name="redirect" value="https://web3forms.com/success">
-                            
+                        <form id="contactForm">
                             <div class="form-group">
                                 <input name="name" class="form-control" type="text" placeholder="Name *" required>
                             </div>
@@ -490,9 +486,10 @@
                             <div class="form-group">
                                 <textarea name="message" class="form-control" placeholder="Message *" rows="7" required></textarea>
                             </div>
-                            <div class="form-group ">
-                                <button type="submit" class="form-control btn btn-primary">Send Message</button>
+                            <div class="form-group">
+                                <button type="submit" class="form-control btn btn-primary" id="submitBtn">Send Message</button>
                             </div>
+                            <div id="formMessage" style="margin-top: 10px; display: none;"></div>
                         </form>
                     </div>
                 </div>
@@ -559,6 +556,59 @@
 
     <!-- ThapaTechnical js -->
     <script src="assets/js/myjava.js"></script>
+
+    <!-- Contact Form Handler -->
+    <script>
+    document.getElementById('contactForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const submitBtn = document.getElementById('submitBtn');
+        const formMessage = document.getElementById('formMessage');
+        const form = e.target;
+        
+        // Get form data
+        const formData = {
+            name: form.name.value,
+            email: form.email.value,
+            message: form.message.value
+        };
+        
+        // Disable button and show loading
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending...';
+        formMessage.style.display = 'none';
+        
+        try {
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData)
+            });
+            
+            const data = await response.json();
+            
+            if (data.success) {
+                formMessage.textContent = '✅ Message sent successfully!';
+                formMessage.style.color = '#28a745';
+                formMessage.style.display = 'block';
+                form.reset();
+            } else {
+                formMessage.textContent = '❌ ' + data.message;
+                formMessage.style.color = '#dc3545';
+                formMessage.style.display = 'block';
+            }
+        } catch (error) {
+            formMessage.textContent = '❌ Failed to send message. Please try again.';
+            formMessage.style.color = '#dc3545';
+            formMessage.style.display = 'block';
+        } finally {
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Send Message';
+        }
+    });
+    </script>
 
 </body>
 </html>
