@@ -27,7 +27,9 @@ export default async function handler(req, res) {
         name: name,
         email: email,
         message: message,
-        subject: 'New Contact from Portfolio',
+        subject: '🚀 New Contact from Portfolio - ' + name, // Customizable subject
+        from_name: 'Portfolio Contact Form', // Sender name
+        replyto: email, // Reply-To header (visitor's email)
       }),
     });
 
