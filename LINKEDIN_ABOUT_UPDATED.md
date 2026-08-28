@@ -1,6 +1,6 @@
 Yasir Sohail | Full-Stack Developer | Laravel | Vue.js | Nuxt.js | Next.js | Cloud & DevOps
 
-Full-stack developer with 3+ years of experience building scalable, production-grade platforms across Laravel, Vue.js, React, Next.js, and Convex. I currently serve as Lead Backend Developer at Savari, where I design and deliver multi-tenant SaaS systems for UK transport operators. My growth from Associate Engineer to Lead Developer in under 3 years reflects consistent ownership, execution speed, and measurable business impact.
+Full-stack developer with 4+ years of experience building scalable, production-grade platforms across Laravel, Vue.js, React, Next.js, and Convex. I currently serve as Lead Backend Developer at Savari, where I design and deliver multi-tenant SaaS systems for UK transport operators. My growth from Associate Engineer to Lead Developer in under 3 years reflects consistent ownership, execution speed, and measurable business impact.
 
 I specialize in end-to-end product engineering: intuitive frontend experiences, resilient backend architecture, clean APIs, secure payments, real-time systems, and cloud-native deployment pipelines. I work comfortably across modern stacks (Laravel + Vue, Next.js + React, MERN-style architecture), relational and non-relational databases, and integration-heavy products.
 
