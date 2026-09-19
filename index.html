@@ -2,203 +2,280 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with ThapaTechnical landing page.">
-    <meta name="author" content="thapatechnical">
-    <title>Yasir Portfolio</title>
-    <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + ThapaTechnical main styles -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Yasir Sohail — Lead Backend Developer & Full Stack Engineer. Enterprise SaaS, AI-integrated applications, and production systems for transport, ecommerce, ERP, and HR.">
+	<meta name="author" content="Yasir Sohail">
+	<title>Yasir Sohail | Full Stack Developer</title>
+	<link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
 	<link rel="stylesheet" href="assets/css/thapatechnical.css">
-    <style>
-        .project-cta {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.4rem;
-            margin: 0.75rem 0 0.5rem;
-        }
-        .project-cta .btn {
-            font-size: 0.75rem;
-            padding: 0.35rem 0.7rem;
-            line-height: 1.3;
-        }
-        .arch-tree {
-            font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-            font-size: 0.78rem;
-            background: #f8f9fa;
-            padding: 0.75rem 1rem;
-            border-left: 3px solid #F85C70;
-            overflow-x: auto;
-            line-height: 1.5;
-            color: #343a40;
-            margin: 0.4rem 0 1rem;
-        }
-    </style>
+	<link rel="stylesheet" href="assets/css/portfolio.css">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
-    <header class="header">
-        <div class="container">
-            <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" href="https://www.facebook.com/yasir.yasirsohail?mibextid=ZbWKwL"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="https://twitter.com/Y191491?t=VD0ibFbAqapTNuI6sSJaRw&s=09"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/yasir-sohail-85067b178"><i class="ti-google" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="https://instagram.com/yasir191491?igshid=YmJhNjkzNzY="><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="https://github.com/Yasirbajwa191491"><i class="ti-github" aria-hidden="true"></i></a></li>
-            </ul>  
-            <div class="header-content">
-                <h4 class="header-subtitle" >Hello, I am</h4>
-                <br>
-                <h1 class="header-title">Yasir Sohail</h1>
-                <h6 class="header-mono" >Full Stack Developer</h6>
-                <iframe 
-        src="yasir_resume.pdf" id="myFrame" 
-            frameborder="0" style="border:0;" 
-                width="300" height="300">
-    </iframe>
-                <button class="btn btn-primary btn-rounded" onclick="window.open('yasir_resume.pdf', '_blank')"><i class="ti-download pr-2"></i>Download Resume</button>
-            </div>
-        </div>
-    </header>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
-        <div class="container">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#resume" class="nav-link">Resume</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav brand">
-                    <img src="assets/imgs/yasir.jpeg" alt="" class="brand-img">
-                    <li class="brand-txt">
-                        <h5 class="brand-title">Yasir Sohail</h5>
-                        <div class="brand-subtitle">Software Developer</div>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="#portfolio" class="nav-link">Portfolio</a>
-                    </li>
-                    
-                    <li class="nav-item last-item">
-                        <a href="#contact" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container-fluid">
-        <div id="about" class="row about-section">
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Who am I ?</h3>
-                <span class="line mb-5"></span>
-                <h5 class="mb-3">Lead Backend Developer | Full Stack Developer</h5>
-                <p class="mt-20">I am Yasir Sohail from Faisalabad, Pakistan. Completed BS Computer Science with 3.65 CGPA. Currently serving as Lead Backend Developer at Savari (UK Transportation Platform), with 4+ years of experience building enterprise-grade applications.</p>
-                <p class="mt-20"><strong>AI & LLM Integration:</strong></p>
-                <p class="mt-2">Passionate about learning and applying AI in production. Built AI Voice Agents (Vapi.ai) for outbound quote follow-ups and inbound voice commerce, AI Outbound Review Calls after delivery, semantic/vector search with Gemini embeddings, multi-provider LLM APIs (Gemini, OpenAI, Anthropic, Groq), AI Business Copilots for natural-language analytics, review sentiment intelligence, and AI-generated marketing content — combining embeddings, webhook-driven voice pipelines, and structured LLM output in real multi-tenant SaaS products.</p>
-                <p class="mt-20"><strong>Technical Expertise:</strong></p>
-                <p class="mt-2">• React.js & Next.js (4+ years) | Vue.js & Nuxt.js (4+ years)</p>
-                <p class="mt-2">• Laravel & PHP (4+ years) | Node.js & Express.js (2+ years)</p>
-                <p class="mt-2">• React Native &amp; Expo (Android / iOS, EAS, biometrics, push, QR) | TypeScript Expert</p>
-                <p class="mt-2">• PostgreSQL, MySQL, SQL Server, MongoDB | Redis Caching | Convex</p>
-                <p class="mt-2">• AI/LLM: Vapi.ai, Gemini, OpenAI, Anthropic, Groq, Vector Search, Voice Agents, Embeddings, Visual Search</p>
-                <p class="mt-2">• Turborepo, npm workspaces, Docker, CI/CD, AWS, Vercel | Stripe PaymentSheet, Twilio, Resend, Expo Push, Google Maps</p>
-                <p class="mt-22"><strong>Achievements:</strong> 35% API performance improvement • 99% uptime • 60% faster processing</p>
-                <a class="btn btn-outline-danger" href="yasir_resume.pdf" download><i class="icon-down-circled2 "></i>Download My CV</a>
-            </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">My Expertise</h3>
-                <span class="line mb-5"></span>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Web Development</h6>
-                        <p class="subtitle">Full Stack Development.</p>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-mobile icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>App Development</h6>
-                        <p class="subtitle">React Native &amp; Expo apps with shared Convex backends, native Stripe PaymentSheet, biometric App Lock, QR scan/tracking, push notifications, receipt share, offline-first browsing, and cross-platform Android/iOS support.</p>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>AI & Voice Agents</h6>
-                        <p class="subtitle">Vapi.ai voice agents, outbound AI calls, multi-provider LLM APIs, embeddings, semantic search, and visual product discovery.</p>
-                        <hr>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Personal Info</h3>
-                <span class="line mb-5"></span>
-                <ul class="mt40 info list-unstyled">
-                    <li><span>Birthdate</span> : 02/18/1999</li>
-                    <li><span>Email</span> : yasirsohail191491@gmail.com</li>
-                    <li><span>Phone</span> : +923134398641</li>
-                    <li><span>University</span> : <a href="https://gcuf.edu.pk/" target="_blank" style="color: #667eea; cursor: pointer;">Government College University Faisalabad</a></li>
-                    <li><span>Address</span> :  Shahkot near Faisalabad district Nankana Sahib Pakistan.</li>
-                </ul>
-                <ul class="social-icons pt-3">
-                    <li class="social-item"><a class="social-link" href="https://www.facebook.com/yasir.yasirsohail?mibextid=ZbWKwL"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="https://twitter.com/Y191491?t=VD0ibFbAqapTNuI6sSJaRw&s=09"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="https://www.linkedin.com/in/yasir-sohail-85067b178"><i class="ti-google" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="https://instagram.com/yasir191491?igshid=YmJhNjkzNzY="><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="https://github.com/Yasirbajwa191491"><i class="ti-github" aria-hidden="true"></i></a></li>
-                </ul>  
-            </div>
-        </div>
-    </div>
+<body class="portfolio-body" data-spy="scroll" data-target=".site-nav" data-offset="72" id="home">
 
-    <!--Resume Section-->
-    <section class="section" id="resume">
-        <div class="container">
-            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
-                       <div class="card-header" id="portfolio">
-                            <div class="mt-2">
-                                <h4>Projects</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h6 class="title text-danger">Savari Transportation Platform (Current)</h6>
-                            <P><strong>Multi-Tenant SaaS for UK Transport Operators</strong></P>
-                            <P>Architected Turborepo monorepo with Transport Management System, Workshop Management System, and Driver/Technician/Customer mobile apps for UK coach and transport operators.</P>
-                            <P class="subtitle"><strong>Transport Management System:</strong> End-to-end job lifecycle — quote creation and conversion to bookings, multi-journey route planning, live allocations dashboard with drag-and-drop dispatch scheduling, customer and business management, fleet and driver assignment with conflict detection, automated invoice generation with Stripe payments, credit notes, financial reporting (aged debtors, journal, fleet utilization), email/SMS templates with shortcodes, and telematics integration (Samsara, Geotab).</P>
-                            <P class="subtitle"><strong>Workshop Management System:</strong> Dynamic inspection form builder with offline mobile submissions (React Native/Expo), photo capture and digital signatures, defect reporting linked to work orders, parts and inventory tracking, vendor management, maintenance scheduling, vehicle mileage and fluid tracking, and fleet maintenance analytics.</P>
-                            <P class="subtitle"><strong>Platform Modules:</strong> Subscription discount engine (single/stacked discounts, trial days, Stripe Schedules), multi-path operator onboarding, per-operator Twilio SMS configuration, and Vapi.ai AI Voice outbound quote follow-ups with work queue triage.</P>
-                            <P class="subtitle"><strong>Tech Stack:</strong> Next.js 16, React 19, TypeScript, Convex BaaS, Drizzle ORM, PostgreSQL, React Native (Expo 54), Turborepo, TanStack Query, Stripe, Twilio, Vapi.ai, Resend, Mapbox, Playwright</P>
-                            <P class="subtitle"><strong>Impact:</strong> Achieved 99% uptime and 35% faster API response times</P>
-                            <P><strong>Live Demo:</strong> <a href="https://dev-tms.savari.io/" target="_blank" style="cursor: pointer;">dev-tms.savari.io</a></P>
-                            <hr>
-                            
-                            <h6 class="title text-danger">AI-Powered Ecommerce Platform</h6>
-                            <P><strong>Full-stack AI Ecommerce with Web Storefront, Admin Dashboard, and Cross-platform React Native Mobile App</strong></P>
-                            <P>A production-grade ecommerce platform with a Next.js storefront, admin dashboard, and React Native/Expo mobile application, powered by a shared Convex backend. AI covers product discovery, semantic and visual search, recommendations, voice shopping, review intelligence, marketing automation, and business analytics. The mobile app adds native Stripe PaymentSheet, biometric App Lock, QR tracking, push notifications, receipt download/share, cancel/reorder, and offline-first browsing on Android and iOS.</P>
-                            <P class="subtitle"><strong>Core Ecommerce:</strong> Product catalog, categories, hybrid search, visual search, similar products, recommendations, wishlist, compare, promotions, cart, checkout, Stripe (web Checkout Sessions + mobile PaymentSheet), cash on delivery, order tracking, cancel order with fee/refund eligibility, reviews, newsletter/subscribers, contact, admin operations (including staff QR scan for package/delivery), and store settings.</P>
-                            <P class="subtitle"><strong>Orders, QR &amp; Receipts:</strong> Secure QR codes for product, order tracking, payment, package, and delivery — resolvable on web and via mobile camera scan / deep links. Customers can cancel eligible orders on web and mobile. Mobile supports reorder-to-cart, payment and order receipt PNG download/share with embedded trackable QR, and Expo push plus an in-app notification center for order and payment alerts.</P>
-                            <P class="subtitle"><strong>AI Features:</strong> AI helps customers discover products using natural language, images, and voice, while helping administrators automate product content, review analysis, marketing, and business insights. Implemented capabilities include Gemini embedding-based semantic search, hybrid catalog search, similar-product recommendations, visual search (SigLIP/CLIP), web Vapi voice shopping, review sentiment analysis and moderation, AI-generated review replies, AI product content generation, AI email campaign copy, AI Business Copilot with sales and inventory insights, a multi-provider LLM architecture (Gemini, Groq, OpenRouter, OpenAI, Anthropic), and outbound Vapi review calls after delivery.</P>
-                            <P class="subtitle"><strong>Mobile App Development:</strong> Production-oriented Expo/React Native storefront on the same Convex backend. Navigation: Home → Shop → AI → Cart → Track. Screens and modules include Home, Shop, Search, Categories, Product details, Cart, Checkout (native Stripe PaymentSheet + COD with pending-payment resume), Visual Search, AI Shopping (natural-language hybrid search), QR Scan, Track Order, order detail (cancel, reorder, receipt share), Notifications, Settings with biometric App Lock (Face ID / fingerprint), About, Contact, Newsletter, Wishlist, dark / light / system theme, accessibility, and cache-first offline browsing.</P>
-                            <P class="subtitle"><strong>Security &amp; Offline:</strong> Optional biometric App Lock is local privacy only (not login or payment auth) and works offline. Cache-first browsing uses NetInfo and AsyncStorage for catalog, products, settings, recently viewed, recent searches, local cart, and wishlist sync. Checkout, Stripe, COD, live tracking, QR resolve, receipt generation, AI, visual search, contact, and newsletter remain online-only. Orders cannot be placed offline.</P>
-                            <P class="subtitle"><strong>Cross-platform:</strong> React Native and Expo for Android and iOS with EAS builds, shared Convex backend, native Stripe SDK (PaymentSheet; requires EAS/dev build, not Expo Go), iOS camera/photo handling with HEIC/HEIF normalization, Face ID App Lock, push notifications, receipt save/share, safe-area and keyboard handling, and deep links (`ecommerce://` / App Links) for QR, Stripe 3DS return, and order flows. Cross-platform and iOS-ready based on implementation and EAS build validation; not claimed as fully tested on every physical iOS device.</P>
-                            <P class="subtitle"><strong>Architecture:</strong> npm workspaces monorepo. Web and mobile share the same Convex backend and business logic for catalog, orders, payments, QR, search, reviews, promotions, and settings.</P>
+	<!-- Navigation -->
+	<nav class="site-nav" id="siteNav" aria-label="Primary">
+		<div class="container-pf site-nav__inner">
+			<a class="site-nav__brand" href="#home">
+				<img class="site-nav__avatar" src="assets/imgs/yasir.jpeg" alt="Yasir Sohail">
+				<span class="site-nav__name">Yasir Sohail</span>
+			</a>
+			<button class="site-nav__toggle" type="button" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation">
+				<i class="ti-menu" aria-hidden="true"></i>
+			</button>
+			<ul class="site-nav__links" id="navLinks">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#expertise">Expertise</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- 1. Hero -->
+	<header class="hero" id="home-hero">
+		<div class="container-pf hero__grid">
+			<div class="hero__content reveal">
+				<p class="hero__greeting">Hello, I am</p>
+				<h1 class="hero__name">Yasir Sohail</h1>
+				<p class="hero__title">Full Stack Developer</p>
+				<p class="hero__pitch">Lead Backend Developer building multi-tenant SaaS, AI-integrated applications, and enterprise systems — from transport platforms to ecommerce, ERP, and HR.</p>
+				<div class="btn-group-pf">
+					<a class="btn-pf btn-pf--primary" href="#contact">Get in touch</a>
+					<a class="btn-pf btn-pf--outline" href="yasir_resume.pdf" target="_blank" rel="noopener noreferrer"><i class="ti-download" aria-hidden="true"></i> Download Resume</a>
+					<a class="btn-pf btn-pf--outline" href="#projects">View projects</a>
+				</div>
+				<ul class="hero__social" aria-label="Social profiles">
+					<li><a href="https://www.facebook.com/yasir.yasirsohail?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="https://twitter.com/Y191491?t=VD0ibFbAqapTNuI6sSJaRw&amp;s=09" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/yasir-sohail-85067b178" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+					<li><a href="https://instagram.com/yasir191491?igshid=YmJhNjkzNzY=" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="https://github.com/Yasirbajwa191491" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="ti-github" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+			<div class="hero__visual reveal">
+				<div class="hero__photo-wrap">
+					<img class="hero__photo" src="assets/imgs/yasir.jpeg" alt="Portrait of Yasir Sohail">
+					<div class="hero__badge">Lead Backend Developer · Savari (UK Transportation Platform)</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- 2. About -->
+	<section class="section-pf" id="about">
+		<div class="container-pf">
+			<div class="section-header reveal">
+				<p class="section-eyebrow">About</p>
+				<h2 class="section-title">Professional background</h2>
+			</div>
+			<div class="about-layout">
+				<div class="about-block about-intro reveal">
+					<h3>Professional introduction</h3>
+					<p class="about-intro__role">Lead Backend Developer | Full Stack Developer</p>
+					<p>I am Yasir Sohail from Faisalabad, Pakistan. Completed BS Computer Science with 3.65 CGPA. Currently serving as Lead Backend Developer at Savari (UK Transportation Platform), with 4+ years of experience building enterprise-grade applications.</p>
+				</div>
+
+				<div class="about-block about-ai reveal">
+					<h3>AI &amp; LLM Integration</h3>
+					<p>Passionate about learning and applying AI in production. Built AI Voice Agents (Vapi.ai) for outbound quote follow-ups and inbound voice commerce, AI Outbound Review Calls after delivery, semantic/vector search with Gemini embeddings, multi-provider LLM APIs (Gemini, OpenAI, Anthropic, Groq), AI Business Copilots for natural-language analytics, review sentiment intelligence, and AI-generated marketing content — combining embeddings, webhook-driven voice pipelines, and structured LLM output in real multi-tenant SaaS products.</p>
+				</div>
+
+				<div class="about-block reveal">
+					<h3>Technical Expertise</h3>
+					<ul class="about-tech__list">
+						<li>React.js &amp; Next.js (4+ years) | Vue.js &amp; Nuxt.js (4+ years)</li>
+						<li>Laravel &amp; PHP (4+ years) | Node.js &amp; Express.js (2+ years)</li>
+						<li>React Native &amp; Expo (Android / iOS, EAS, biometrics, push, QR) | TypeScript Expert</li>
+						<li>PostgreSQL, MySQL, SQL Server, MongoDB | Redis Caching | Convex</li>
+						<li>AI/LLM: Vapi.ai, Gemini, OpenAI, Anthropic, Groq, Vector Search, Voice Agents, Embeddings, Visual Search</li>
+						<li>Turborepo, npm workspaces, Docker, CI/CD, AWS, Vercel | Stripe PaymentSheet, Twilio, Resend, Expo Push, Google Maps</li>
+					</ul>
+					<p class="about-achievements"><strong>Achievements:</strong> 35% API performance improvement • 99% uptime • 60% faster processing</p>
+				</div>
+
+				<div class="about-block reveal">
+					<h3>Personal Info</h3>
+					<ul class="about-personal">
+						<li><span>Birthdate</span>02/18/1999</li>
+						<li><span>Email</span><a href="mailto:yasirsohail191491@gmail.com">yasirsohail191491@gmail.com</a></li>
+						<li><span>Phone</span><a href="tel:+923134398641">+923134398641</a></li>
+						<li><span>University</span><a href="https://gcuf.edu.pk/" target="_blank" rel="noopener noreferrer">Government College University Faisalabad</a></li>
+						<li><span>Address</span>Shahkot near Faisalabad district Nankana Sahib Pakistan.</li>
+					</ul>
+					<div class="about-personal-foot">
+						<a class="btn-pf btn-pf--outline btn-pf--sm" href="yasir_resume.pdf" download><i class="ti-download" aria-hidden="true"></i> Download My CV</a>
+						<ul class="social-row" aria-label="Social profiles">
+							<li><a href="https://www.facebook.com/yasir.yasirsohail?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="https://twitter.com/Y191491?t=VD0ibFbAqapTNuI6sSJaRw&amp;s=09" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/yasir-sohail-85067b178" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+							<li><a href="https://instagram.com/yasir191491?igshid=YmJhNjkzNzY=" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="https://github.com/Yasirbajwa191491" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="ti-github" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- 3. Key statistics -->
+	<section class="section-pf section-pf--alt" id="stats">
+		<div class="container-pf">
+			<div class="section-header reveal">
+				<p class="section-eyebrow">At a glance</p>
+				<h2 class="section-title">Key statistics</h2>
+			</div>
+			<div class="stats-grid">
+				<article class="stat-card reveal">
+					<div class="stat-card__icon" aria-hidden="true"><i class="ti-alarm-clock"></i></div>
+					<p class="stat-card__value">4+</p>
+					<p class="stat-card__label">Years Experience</p>
+				</article>
+				<article class="stat-card reveal">
+					<div class="stat-card__icon" aria-hidden="true"><i class="ti-layers-alt"></i></div>
+					<p class="stat-card__value">20+</p>
+					<p class="stat-card__label">Projects Completed</p>
+				</article>
+				<article class="stat-card reveal">
+					<div class="stat-card__icon" aria-hidden="true"><i class="ti-face-smile"></i></div>
+					<p class="stat-card__value">5K+</p>
+					<p class="stat-card__label">Active Users</p>
+				</article>
+				<article class="stat-card reveal">
+					<div class="stat-card__icon" aria-hidden="true"><i class="ti-stats-up"></i></div>
+					<p class="stat-card__value">99%</p>
+					<p class="stat-card__label">System Uptime</p>
+				</article>
+			</div>
+		</div>
+	</section>
+
+	<!-- 4. Expertise -->
+	<section class="section-pf" id="expertise">
+		<div class="container-pf">
+			<div class="section-header reveal">
+				<p class="section-eyebrow">What I do</p>
+				<h2 class="section-title">My Expertise</h2>
+			</div>
+			<div class="expertise-grid">
+				<article class="expertise-card reveal">
+					<div class="expertise-card__icon" aria-hidden="true"><i class="ti-widget"></i></div>
+					<h3>Web Development</h3>
+					<p>Full Stack Development.</p>
+				</article>
+				<article class="expertise-card reveal">
+					<div class="expertise-card__icon" aria-hidden="true"><i class="ti-mobile"></i></div>
+					<h3>App Development</h3>
+					<p>React Native &amp; Expo apps with shared Convex backends, native Stripe PaymentSheet, biometric App Lock, QR scan/tracking, push notifications, receipt share, offline-first browsing, and cross-platform Android/iOS support.</p>
+				</article>
+				<article class="expertise-card reveal">
+					<div class="expertise-card__icon" aria-hidden="true"><i class="ti-microphone"></i></div>
+					<h3>AI &amp; Voice Agents</h3>
+					<p>Vapi.ai voice agents, outbound AI calls, multi-provider LLM APIs, embeddings, semantic search, and visual product discovery.</p>
+				</article>
+			</div>
+		</div>
+	</section>
+
+	<!-- 5–6. Projects -->
+	<section class="section-pf section-pf--alt" id="projects">
+		<div class="container-pf">
+			<div class="section-header reveal">
+				<p class="section-eyebrow">Selected work</p>
+				<h2 class="section-title">Projects</h2>
+			</div>
+
+			<!-- Featured: Savari -->
+			<article class="project-featured reveal" id="portfolio">
+				<div class="project-featured__header">
+					<div>
+						<p class="project-featured__label">Featured project</p>
+						<h3>Savari Transportation Platform (Current)</h3>
+						<p class="project-featured__subtitle">Multi-Tenant SaaS for UK Transport Operators</p>
+					</div>
+					<a class="btn-pf btn-pf--primary btn-pf--sm" href="https://dev-tms.savari.io/" target="_blank" rel="noopener noreferrer"><i class="ti-world" aria-hidden="true"></i> Live Demo</a>
+				</div>
+				<p>Architected Turborepo monorepo with Transport Management System, Workshop Management System, and Driver/Technician/Customer mobile apps for UK coach and transport operators.</p>
+				<div class="project-modules">
+					<div class="project-module">
+						<h4>Transport Management System</h4>
+						<p>End-to-end job lifecycle — quote creation and conversion to bookings, multi-journey route planning, live allocations dashboard with drag-and-drop dispatch scheduling, customer and business management, fleet and driver assignment with conflict detection, automated invoice generation with Stripe payments, credit notes, financial reporting (aged debtors, journal, fleet utilization), email/SMS templates with shortcodes, and telematics integration (Samsara, Geotab).</p>
+					</div>
+					<div class="project-module">
+						<h4>Workshop Management System</h4>
+						<p>Dynamic inspection form builder with offline mobile submissions (React Native/Expo), photo capture and digital signatures, defect reporting linked to work orders, parts and inventory tracking, vendor management, maintenance scheduling, vehicle mileage and fluid tracking, and fleet maintenance analytics.</p>
+					</div>
+					<div class="project-module">
+						<h4>Platform Modules</h4>
+						<p>Subscription discount engine (single/stacked discounts, trial days, Stripe Schedules), multi-path operator onboarding, per-operator Twilio SMS configuration, and Vapi.ai AI Voice outbound quote follow-ups with work queue triage.</p>
+					</div>
+				</div>
+				<div class="project-meta-row">
+					<div>
+						<p class="project-impact"><strong>Impact:</strong> Achieved 99% uptime and 35% faster API response times</p>
+						<p style="margin:0 0 0.5rem;font-size:0.9rem;"><strong>Tech Stack</strong></p>
+						<ul class="tag-list">
+							<li class="tag">Next.js 16</li>
+							<li class="tag">React 19</li>
+							<li class="tag">TypeScript</li>
+							<li class="tag">Convex BaaS</li>
+							<li class="tag">Drizzle ORM</li>
+							<li class="tag">PostgreSQL</li>
+							<li class="tag">React Native (Expo 54)</li>
+							<li class="tag">Turborepo</li>
+							<li class="tag">TanStack Query</li>
+							<li class="tag">Stripe</li>
+							<li class="tag">Twilio</li>
+							<li class="tag">Vapi.ai</li>
+							<li class="tag">Resend</li>
+							<li class="tag">Mapbox</li>
+							<li class="tag">Playwright</li>
+						</ul>
+					</div>
+					<div>
+						<p style="margin:0 0 0.5rem;font-size:0.9rem;"><strong>Live Demo:</strong> <a href="https://dev-tms.savari.io/" target="_blank" rel="noopener noreferrer">dev-tms.savari.io</a></p>
+						<p style="margin:0;font-size:0.9rem;"><a href="https://savari.io" target="_blank" rel="noopener noreferrer">savari.io</a> · <a href="https://dev.savari.io" target="_blank" rel="noopener noreferrer">dev.savari.io</a></p>
+					</div>
+				</div>
+			</article>
+
+			<div class="projects-grid">
+				<!-- AI Ecommerce — wide card -->
+				<article class="project-card project-card--wide reveal">
+					<h3>AI-Powered Ecommerce Platform</h3>
+					<p class="project-card__subtitle">Full-stack AI Ecommerce with Web Storefront, Admin Dashboard, and Cross-platform React Native Mobile App</p>
+					<p>A production-grade ecommerce platform with a Next.js storefront, admin dashboard, and React Native/Expo mobile application, powered by a shared Convex backend. AI covers product discovery, semantic and visual search, recommendations, voice shopping, review intelligence, marketing automation, and business analytics. The mobile app adds native Stripe PaymentSheet, biometric App Lock, QR tracking, push notifications, receipt download/share, cancel/reorder, and offline-first browsing on Android and iOS.</p>
+
+					<div class="project-subsection">
+						<h4>Core Ecommerce</h4>
+						<p>Product catalog, categories, hybrid search, visual search, similar products, recommendations, wishlist, compare, promotions, cart, checkout, Stripe (web Checkout Sessions + mobile PaymentSheet), cash on delivery, order tracking, cancel order with fee/refund eligibility, reviews, newsletter/subscribers, contact, admin operations (including staff QR scan for package/delivery), and store settings.</p>
+					</div>
+					<div class="project-subsection">
+						<h4>Orders, QR &amp; Receipts</h4>
+						<p>Secure QR codes for product, order tracking, payment, package, and delivery — resolvable on web and via mobile camera scan / deep links. Customers can cancel eligible orders on web and mobile. Mobile supports reorder-to-cart, payment and order receipt PNG download/share with embedded trackable QR, and Expo push plus an in-app notification center for order and payment alerts.</p>
+					</div>
+					<div class="project-subsection">
+						<h4>AI Features</h4>
+						<p>AI helps customers discover products using natural language, images, and voice, while helping administrators automate product content, review analysis, marketing, and business insights. Implemented capabilities include Gemini embedding-based semantic search, hybrid catalog search, similar-product recommendations, visual search (SigLIP/CLIP), web Vapi voice shopping, review sentiment analysis and moderation, AI-generated review replies, AI product content generation, AI email campaign copy, AI Business Copilot with sales and inventory insights, a multi-provider LLM architecture (Gemini, Groq, OpenRouter, OpenAI, Anthropic), and outbound Vapi review calls after delivery.</p>
+					</div>
+					<div class="project-subsection">
+						<h4>Mobile App Development</h4>
+						<p>Production-oriented Expo/React Native storefront on the same Convex backend. Navigation: Home → Shop → AI → Cart → Track. Screens and modules include Home, Shop, Search, Categories, Product details, Cart, Checkout (native Stripe PaymentSheet + COD with pending-payment resume), Visual Search, AI Shopping (natural-language hybrid search), QR Scan, Track Order, order detail (cancel, reorder, receipt share), Notifications, Settings with biometric App Lock (Face ID / fingerprint), About, Contact, Newsletter, Wishlist, dark / light / system theme, accessibility, and cache-first offline browsing.</p>
+					</div>
+					<div class="project-subsection">
+						<h4>Security &amp; Offline</h4>
+						<p>Optional biometric App Lock is local privacy only (not login or payment auth) and works offline. Cache-first browsing uses NetInfo and AsyncStorage for catalog, products, settings, recently viewed, recent searches, local cart, and wishlist sync. Checkout, Stripe, COD, live tracking, QR resolve, receipt generation, AI, visual search, contact, and newsletter remain online-only. Orders cannot be placed offline.</p>
+					</div>
+					<div class="project-subsection">
+						<h4>Cross-platform</h4>
+						<p>React Native and Expo for Android and iOS with EAS builds, shared Convex backend, native Stripe SDK (PaymentSheet; requires EAS/dev build, not Expo Go), iOS camera/photo handling with HEIC/HEIF normalization, Face ID App Lock, push notifications, receipt save/share, safe-area and keyboard handling, and deep links (<code>ecommerce://</code> / App Links) for QR, Stripe 3DS return, and order flows. Cross-platform and iOS-ready based on implementation and EAS build validation; not claimed as fully tested on every physical iOS device.</p>
+					</div>
+					<div class="project-subsection">
+						<h4>Architecture</h4>
+						<p>npm workspaces monorepo. Web and mobile share the same Convex backend and business logic for catalog, orders, payments, QR, search, reviews, promotions, and settings.</p>
+					</div>
 <pre class="arch-tree">Ecommerce Monorepo
 │
 ├── Web Storefront + Admin
@@ -206,496 +283,543 @@
 ├── Shared Packages
 ├── Convex Backend
 └── AI / Review Services</pre>
-                            <P class="subtitle"><strong>Tech Stack:</strong> Next.js 16, React 19, React Native, Expo, TypeScript, Convex, Better Auth, Stripe (Checkout + PaymentSheet), Google Gemini, Vapi, OpenAI, Anthropic, Groq, Resend, Twilio, Expo Push, expo-local-authentication, Tailwind CSS, shadcn/ui, Vercel, EAS</P>
-                            <P class="subtitle"><strong>Impact:</strong> End-to-end AI commerce across web and mobile on a shared backend — semantic and visual discovery, native mobile payments, QR-based tracking and staff scan ops, biometric app privacy, push and receipt workflows, cancel/reorder, AI-powered administration, offline-capable browsing, and production deployment on Vercel with Expo/EAS builds.</P>
-                            <div class="project-cta">
-                                <a class="btn btn-sm btn-outline-danger" href="https://ecommerce-nextjs-yasir.vercel.app/" target="_blank" rel="noopener noreferrer"><i class="ti-world pr-1"></i>Live Web Store</a>
-                                <a class="btn btn-sm btn-outline-danger" href="https://ecommerce-nextjs-yasir.vercel.app/admin" target="_blank" rel="noopener noreferrer"><i class="ti-lock pr-1"></i>Admin Dashboard</a>
-                                <a class="btn btn-sm btn-outline-danger" href="https://expo.dev/accounts/yasirsohail191491s-team/projects/ecommerce-mobile/builds/104fb4cc-c51b-47bd-b10a-09f30b06682d" target="_blank" rel="noopener noreferrer"><i class="ti-mobile pr-1"></i>Mobile App</a>
-                                <a class="btn btn-sm btn-outline-danger" href="https://github.com/Yasirbajwa191491/ecommerce-nextjs" target="_blank" rel="noopener noreferrer"><i class="ti-github pr-1"></i>GitHub</a>
-                            </div>
-                            <P class="subtitle"><strong>Admin:</strong> Admin demo access available upon request.</P>
-                            <hr>
-                            
-                            <h6 class="title text-danger">UK Taxi Management System</h6>
-                            <P>Developed intelligent pricing algorithm (20% revenue increase), AI-powered dispatch system (30% faster wait times), secure payment processing with Stripe and Wonderful Payments (PCI-DSS compliant), automated email notification system, and real-time driver tracking.</P>
-                            <P class="subtitle"><strong>Tech Stack:</strong> PHP 8, Laravel 10, React.js, Vue.js 3, Next.js 14, Nuxt.js, TypeScript, MySQL, Redis, Stripe API</P>
-                            <P><strong>Live Demo:</strong> <a href="https://www.transfeero.com/en/" target="_blank" style="cursor: pointer;">transfeero.com</a></P>
-                            <hr>
-                            
-                            <h6 class="title text-danger">Enterprise ERP System</h6>
-                            <P>Multi-tenant system serving 5 housing societies (3,000+ residents, 1,000+ employees). Developed 12 integrated modules: HRMS, Accounts (5-level COA with double-entry ledger), Procurement (full cycle: demand → quotation → PO → GRN → invoice → payment), Inventory Management (FIFO valuation, barcode system), Project Management, Real Estate/Units Management.</P>
-                            <P class="subtitle"><strong>Tech Stack:</strong> Laravel 9, Vue.js 2, SQL Server (Multi-DB), OAuth2 (Passport), Spatie Permission, Socket.io, Laravel Echo, Pusher, DomPDF, Maatwebsite Excel</P>
-                            <P class="subtitle"><strong>Impact:</strong> Reduced manual work by 70%</P>
-                            <P><strong>Live Demo:</strong> <a href="http://16.171.136.48/#/" target="_blank" style="cursor: pointer;">View ERP System (HR, Payroll, Accounting, Procurement)</a></P>
-                            <hr>
-                            
-                            <h6 class="title text-danger">HR & Payroll Management System</h6>
-                            <P>Complete HRMS for 1,000+ employees featuring automated attendance tracking, leave management with accrual rules, payroll processing with overtime/deductions/allowances, recruitment portal with interview scheduling, loans & advances module, final settlement calculations, and 12+ analytics dashboards.</P>
-                            <P class="subtitle"><strong>Tech Stack:</strong> Laravel 9, Vue.js 3, SQL Server 2019, T-SQL Stored Procedures, ZKTeco SDK (Biometric), ApexCharts, Chart.js</P>
-                            <P class="subtitle"><strong>Impact:</strong> Reduced payroll processing time by 60%</P>
-                            <P><strong>Live Demo:</strong> <a href="http://16.171.136.48/#/" target="_blank" style="cursor: pointer;">View HR & Payroll System</a></P>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="mt-2">
-                                <h4>Education</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h6 class="title text-danger">2018 - 2022</h6>
-                            <P>Bachelor of Science in Computer Science</P>
-                            <P class="subtitle">Completed BS Computer Science from <a href="https://gcuf.edu.pk/" target="_blank" style="cursor: pointer;">Government College University Faisalabad (GCUF)</a> with 3.65/4.0 CGPA. Graduated with strong foundation in software engineering, algorithms, and database systems.</P>
-                            <hr>
-                            <h6 class="title text-danger">2016 - 2018</h6>
-                            <P>Intermediate</P>
-                            <P class="subtitle">Completed FSC Pre Engineering from Superior Group of College Shahkot with 838 marks.</P>
-                            <hr>
-                            <h6 class="title text-danger">2014 - 2016</h6>
-                            <P>High School Degree</P>
-                            <P class="subtitle">Completed Hight School with 920 marks.</P>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="pull-left">
-                                <h4 class="mt-2">Skills</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body pb-2">
-                           <h6>TypeScript & JavaScript</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>React JS & Next.js</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Vue.js & Nuxt.js</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Laravel & PHP</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Node.js & Express.js</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>React Native &amp; Expo</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Convex</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>AI/LLM &amp; Semantic Search</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>PostgreSQL &amp; MySQL</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>SQL Server & MongoDB</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Docker & CI/CD</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Turborepo & Monorepo</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Stripe &amp; Payment Integration</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Vapi Voice Agents</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>EAS &amp; Mobile Builds</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Biometrics, Push &amp; QR</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="pull-left">
-                                <h4 class="mt-2">Languages</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body pb-2">
-                           <h6>Urdu</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>English</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Punjabi</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+					<p><strong>Tech Stack:</strong></p>
+					<ul class="tag-list">
+						<li class="tag">Next.js 16</li>
+						<li class="tag">React 19</li>
+						<li class="tag">React Native</li>
+						<li class="tag">Expo</li>
+						<li class="tag">TypeScript</li>
+						<li class="tag">Convex</li>
+						<li class="tag">Better Auth</li>
+						<li class="tag">Stripe (Checkout + PaymentSheet)</li>
+						<li class="tag">Google Gemini</li>
+						<li class="tag">Vapi</li>
+						<li class="tag">OpenAI</li>
+						<li class="tag">Anthropic</li>
+						<li class="tag">Groq</li>
+						<li class="tag">Resend</li>
+						<li class="tag">Twilio</li>
+						<li class="tag">Expo Push</li>
+						<li class="tag">expo-local-authentication</li>
+						<li class="tag">Tailwind CSS</li>
+						<li class="tag">shadcn/ui</li>
+						<li class="tag">Vercel</li>
+						<li class="tag">EAS</li>
+					</ul>
+					<p class="project-impact" style="margin-top:1rem;"><strong>Impact:</strong> End-to-end AI commerce across web and mobile on a shared backend — semantic and visual discovery, native mobile payments, QR-based tracking and staff scan ops, biometric app privacy, push and receipt workflows, cancel/reorder, AI-powered administration, offline-capable browsing, and production deployment on Vercel with Expo/EAS builds.</p>
+					<div class="project-cta">
+						<a class="btn-pf btn-pf--outline btn-pf--sm" href="https://ecommerce-nextjs-yasir.vercel.app/" target="_blank" rel="noopener noreferrer"><i class="ti-world" aria-hidden="true"></i> Live Web Store</a>
+						<a class="btn-pf btn-pf--outline btn-pf--sm" href="https://ecommerce-nextjs-yasir.vercel.app/admin" target="_blank" rel="noopener noreferrer"><i class="ti-lock" aria-hidden="true"></i> Admin Dashboard</a>
+						<a class="btn-pf btn-pf--outline btn-pf--sm" href="https://expo.dev/accounts/yasirsohail191491s-team/projects/ecommerce-mobile/builds/26653364-5ae5-4c78-af45-60af216046f3" target="_blank" rel="noopener noreferrer"><i class="ti-mobile" aria-hidden="true"></i> Mobile App</a>
+						<a class="btn-pf btn-pf--outline btn-pf--sm" href="https://github.com/Yasirbajwa191491/ecommerce-nextjs" target="_blank" rel="noopener noreferrer"><i class="ti-github" aria-hidden="true"></i> GitHub</a>
+					</div>
+					<p style="margin-top:0.65rem;font-size:0.9rem;"><strong>Admin:</strong> Admin demo access available upon request.</p>
+				</article>
 
-    <section class="section bg-dark text-center">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-6 col-lg-3">
-                    <div class="row ">
-                        <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
-                        </div>
-                        <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">4+</h1>
-                            <p class="text-light mb-1">Years Experience</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="row">
-                        <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
-                        </div>
-                        <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">20+</h1>
-                            <p class="text-light mb-1">Projects Completed</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="row">
-                        <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
-                        </div>
-                        <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">5K+</h1>
-                            <p class="text-light mb-1">Active Users</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="row">
-                        <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-stats-up icon-xl"></i></div>
-                        </div>
-                        <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">99%</h1>
-                            <p class="text-light mb-1">System Uptime</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+				<!-- UK Taxi -->
+				<article class="project-card reveal">
+					<div class="project-card__body">
+						<h3>UK Taxi Management System</h3>
+						<p>Developed intelligent pricing algorithm (20% revenue increase), AI-powered dispatch system (30% faster wait times), secure payment processing with Stripe and Wonderful Payments (PCI-DSS compliant), automated email notification system, and real-time driver tracking.</p>
+						<p><strong>Tech Stack:</strong></p>
+						<ul class="tag-list">
+							<li class="tag">PHP 8</li>
+							<li class="tag">Laravel 10</li>
+							<li class="tag">React.js</li>
+							<li class="tag">Vue.js 3</li>
+							<li class="tag">Next.js 14</li>
+							<li class="tag">Nuxt.js</li>
+							<li class="tag">TypeScript</li>
+							<li class="tag">MySQL</li>
+							<li class="tag">Redis</li>
+							<li class="tag">Stripe API</li>
+						</ul>
+					</div>
+					<div class="project-card__footer">
+						<p><strong>Live Demo:</strong> <a href="https://www.transfeero.com/en/" target="_blank" rel="noopener noreferrer">transfeero.com</a></p>
+					</div>
+				</article>
 
-    <section class="section" id="service">
-       <div class="container">
-                 <h2 class="mb-5 pb-4"><span class="text-danger">My</span> Experience</h2>
-                 <div class="row">
-                     <div class="col-md-6 col-sm-12">
-                         <div class="card mb-5">
-                            <div class="card-header has-icon">
-                                 <i class="ti-vector text-danger"></i>
-                             </div>
-                             <div class="card-body px-4 py-3">
-                                 <h5 class="mb-3 card-title text-dark">Lead Backend Developer (Current)</h5>
-                                 <h6 class="text-danger"><a href="https://savari.io" target="_blank" style="color: #dc3545; cursor: pointer; text-decoration: none;">Savari</a> - UK Transportation Platform | Feb 2025 - Present</h6>
-                                 <P class="subtitle">Leading backend architecture for multi-tenant SaaS platform
-     serving UK transport operators. Architected Turborepo monorepo with Transport Management System,
-     Workshop Management System, and Driver/Technician/Customer mobile apps using Next.js 16 + React 19.</P>
-                                 <P class="subtitle"><strong>Transport Management System:</strong> Quotes, bookings,
-     live dispatch allocations, fleet/driver assignment, automated invoicing, Stripe payments, financial reporting,
-     and telematics (Samsara, Geotab).</P>
-                                 <P class="subtitle"><strong>Workshop Management System:</strong> Dynamic inspection
-     form builder, offline mobile inspections (React Native/Expo), work orders, parts/inventory, maintenance
-     scheduling, and fleet analytics.</P>
-                                 <P class="subtitle"><strong>Platform Modules:</strong> Discount engine with stacked
-     discounts and Stripe Schedules, operator onboarding, Twilio SMS, and Vapi.ai AI Voice quote follow-ups.</P>
-                                 <P><strong>Achievement:</strong> 99% uptime, 35% faster API response times.
-     Integrated 10+ APIs: Stripe, Twilio, Vapi.ai, Resend, Samsara, Geotab, Google Maps</P>
-                                 <P><strong>Tech:</strong> Next.js 16, React 19, TypeScript, Convex BaaS,
-     PostgreSQL, React Native, Turborepo</P>
-                                 <P><strong>Live Projects:</strong> <a href="https://dev.savari.io" target="_blank" style="cursor: pointer;">dev.savari.io</a> | <a href="https://dev-tms.savari.io" target="_blank" style="cursor: pointer;">dev-tms.savari.io</a></P>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-md-6 col-sm-12">
-                         <div class="card mb-5">
-                            <div class="card-header has-icon">
-                                 <i class="ti-write text-danger"></i>
-                             </div>
-                             <div class="card-body px-4 py-3">
-                                 <h5 class="mb-3 card-title text-dark">Software Engineer</h5>
-                                 <h6 class="text-danger"><a href="https://cfits.co.uk/" target="_blank" style="color: #dc3545; cursor: pointer; text-decoration: none;">Computer Friends IT</a> - UK Taxi Systems | Jun 2024 - Feb 2025</h6>
-                                 <P class="subtitle">Developed intelligent pricing algorithm increasing revenue by
-     20%, AI-powered dispatch system reducing wait time by 30%, secure payment processing with Stripe & Wonderful
-     Payments (PCI-DSS compliant), automated email notifications, and real-time driver tracking dashboards.</P>
-                                 <P><strong>Achievement:</strong> Promoted to Lead Backend Developer at Savari
-     within 8 months</P>
-                                 <P><strong>Tech:</strong> PHP 8, Laravel 10, React.js, Vue.js 3, Next.js 14,
-     TypeScript, MySQL, Redis, Stripe</P>
-                                 <P><strong>Live Projects:</strong> <a href="https://www.transfeero.com/en/" target="_blank" style="cursor: pointer;">transfeero.com</a> | <a href="https://gocab.uk/" target="_blank" style="cursor: pointer;">gocab.uk</a> | <a href="https://www.chchauffeurs.co.uk/" target="_blank" style="cursor: pointer;">chchauffeurs.co.uk</a></P>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-md-6 col-sm-12">
-                         <div class="card mb-5">
-                            <div class="card-header has-icon">
-                                 <i class="ti-package text-danger"></i>
-                             </div>
-                             <div class="card-body px-4 py-3">
-                                 <h5 class="mb-3 card-title text-dark">Software Engineer (Promoted)</h5>
-                                 <h6 class="text-danger"><a href="https://sasystems.solutions/" target="_blank" style="color: #dc3545; cursor: pointer; text-decoration: none;">SA Systems Solutions</a> | Jul 2023 - Jun 2024</h6>
-                                 <P class="subtitle">Full-stack development of enterprise HR & Payroll system
-     managing 1,000+ employees across 5 organizations. Integrated ZKTeco biometric devices, automated leave
-     management, multi-level salary approval workflows, recruitment module with interview scheduling, and 12+
-     interactive dashboards (ApexCharts, Chart.js).</P>
-                                 <P><strong>Achievement:</strong> Reduced payroll processing time by 60%</P>
-                                 <P><strong>Tech:</strong> Laravel 9, Vue.js 3, SQL Server 2019, T-SQL, ZKTeco SDK,
-      ApexCharts</P>
-                                 <P><strong>Live Demo:</strong> <a href="http://16.171.136.48/#/" target="_blank" style="cursor: pointer;">16.171.136.48</a> (HR & Payroll, Accounting, Procurement)</P>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-md-6 col-sm-12">
-                         <div class="card mb-5">
-                            <div class="card-header has-icon">
-                                 <i class="ti-stats-up text-danger"></i>
-                             </div>
-                             <div class="card-body px-4 py-3">
-                                 <h5 class="mb-3 card-title text-dark">Associate Software Engineer</h5>
-                                 <h6 class="text-danger"><a href="https://sasystems.solutions/" target="_blank" style="color: #dc3545; cursor: pointer; text-decoration: none;">SA Systems Solutions</a> | Jul 2022 - Jul 2023</h6>
-                                 <P class="subtitle">Developed enterprise ERP with 12 modules (HRMS, Accounts,
-     Procurement, Inventory, Projects) serving 5 housing societies (3,000+ residents, 1,000+ employees). Built
-     Accounting System with 5-level Chart of Accounts, end-to-end Procurement cycle, real-time Inventory with FIFO
-     valuation, barcode system. Implemented multi-tenant architecture with OAuth2, RBAC, 4-database architecture,
-     real-time features (Laravel Echo + Socket.io).</P>
-                                 <P><strong>Achievement:</strong> Reduced manual work by 70%, promoted after 12
-     months</P>
-                                 <P><strong>Tech:</strong> Laravel 9, Vue.js 2, SQL Server (Multi-DB), OAuth2,
-     Socket.io, Pusher, DomPDF</P>
-                                 <P><strong>Live Demo:</strong> <a href="http://16.171.136.48/#/" target="_blank" style="cursor: pointer;">16.171.136.48</a> | <strong>Projects:</strong> Lake City, SA Gardens, Iqbal Garden</P>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-md-6 col-sm-12">
-                         <div class="card mb-5">
-                            <div class="card-header has-icon">
-                                 <i class="ti-map-alt text-danger"></i>
-                             </div>
-                             <div class="card-body px-4 py-3">
-                                 <h5 class="mb-3 card-title text-dark">Software Development Intern</h5>
-                                 <h6 class="text-danger">IT Service Dept, <a href="https://gcuf.edu.pk/" target="_blank" style="color: #dc3545; cursor: pointer; text-decoration: none;">GCUF</a> | 2021 - 2022</h6>
-                                 <P class="subtitle">Student Portal System as Final Year Project in 2-member Agile
-     team. Created modules: student records, course outlines, timetable generation, assignment submission with
-     deadline tracking, QEC faculty ranking, fee management, library integration, secure authentication. Applied
-     Agile/Scrum methodology with Git version control.</P>
-                                 <P><strong>Tech:</strong> PHP 7, Laravel 8, React.js, MySQL 8, REST APIs, JWT,
-     Bootstrap, Git</P>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-md-6 col-sm-12">
-                         <div class="card mb-5">
-                            <div class="card-header has-icon">
-                                 <i class="ti-briefcase text-danger"></i>
-                             </div>
-                             <div class="card-body px-4 py-3">
-                                 <h5 class="mb-3 card-title text-dark">Real-World Projects Delivered</h5>
-                                 <h6 class="text-danger">Major Production Systems</h6>
-                                 <P class="subtitle"><strong>Savari Transportation:</strong> Transport Management System
-      (quotes, dispatch, finance) and Workshop Management System (inspections, work orders, fleet maintenance), plus
-      discount engine, SMS and AI voice add-ons. <a href="https://dev-tms.savari.io/" target="_blank" style="cursor: pointer;">View Demo</a></P>
-                                 <P class="subtitle"><strong>AI Ecommerce Platform:</strong> Next.js storefront, admin dashboard, and React Native/Expo mobile app on a shared Convex backend — hybrid/visual search, native Stripe PaymentSheet, QR tracking, biometric App Lock, push notifications, receipt share, cancel/reorder, and offline-capable browsing. <a href="https://ecommerce-nextjs-yasir.vercel.app/" target="_blank" rel="noopener noreferrer" style="cursor: pointer;">View Store</a></P>
-                                 <P class="subtitle"><strong>UK Taxi Management:</strong> Intelligent pricing, AI
-     dispatch, payment processing. <a href="https://www.transfeero.com/en/" target="_blank" style="cursor: pointer;">View Demo</a></P>
-                                 <P class="subtitle"><strong>Enterprise ERP (Lake City, SA Gardens, Iqbal
-     Garden):</strong> Finance (Requisition, PO, Invoice, GRN), HRMS (Salary, Loans, Attendance, Leaves), Payroll
-     (Arrears, Bonuses, Tax), Recruitment. <a href="http://16.171.136.48/#/" target="_blank" style="cursor: pointer;">View Demo</a></P>
-                                 <P class="subtitle"><strong>HR & Payroll:</strong> 1,000+ employees, biometric
-     integration, 12+ dashboards. <a href="http://16.171.136.48/#/" target="_blank" style="cursor: pointer;">View Demo</a></P>
-                                 <P><strong>Metrics:</strong> 5,000+ users, 99% uptime, 35-70% efficiency gains,
-     20% revenue increase</P>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-    </section>
+				<!-- Enterprise ERP -->
+				<article class="project-card reveal">
+					<div class="project-card__body">
+						<h3>Enterprise ERP System</h3>
+						<p>Multi-tenant system serving 5 housing societies (3,000+ residents, 1,000+ employees). Developed 12 integrated modules: HRMS, Accounts (5-level COA with double-entry ledger), Procurement (full cycle: demand → quotation → PO → GRN → invoice → payment), Inventory Management (FIFO valuation, barcode system), Project Management, Real Estate/Units Management.</p>
+						<p><strong>Tech Stack:</strong></p>
+						<ul class="tag-list">
+							<li class="tag">Laravel 9</li>
+							<li class="tag">Vue.js 2</li>
+							<li class="tag">SQL Server (Multi-DB)</li>
+							<li class="tag">OAuth2 (Passport)</li>
+							<li class="tag">Spatie Permission</li>
+							<li class="tag">Socket.io</li>
+							<li class="tag">Laravel Echo</li>
+							<li class="tag">Pusher</li>
+							<li class="tag">DomPDF</li>
+							<li class="tag">Maatwebsite Excel</li>
+						</ul>
+						<p class="project-impact"><strong>Impact:</strong> Reduced manual work by 70%</p>
+					</div>
+					<div class="project-card__footer">
+						<p><strong>Live Demo:</strong> <a href="http://16.171.136.48/#/" target="_blank" rel="noopener noreferrer">View ERP System (HR, Payroll, Accounting, Procurement)</a></p>
+					</div>
+				</article>
 
-    <section class="section bg-dark py-5">
-        <div class="container text-center">
-            <h2 class="text-light mb-5 font-weight-normal">I Am Available For Remotely /Office Work</h2>
-            <a class="btn bg-primary w-lg" href="https://www.linkedin.com/in/yasir-sohail-85067b178" >Hire me</a>
-        </div>
-    </section>
+				<!-- HR & Payroll -->
+				<article class="project-card project-card--wide reveal">
+					<div class="project-card__body">
+						<h3>HR &amp; Payroll Management System</h3>
+						<p>Complete HRMS for 1,000+ employees featuring automated attendance tracking, leave management with accrual rules, payroll processing with overtime/deductions/allowances, recruitment portal with interview scheduling, loans &amp; advances module, final settlement calculations, and 12+ analytics dashboards.</p>
+						<p><strong>Tech Stack:</strong></p>
+						<ul class="tag-list">
+							<li class="tag">Laravel 9</li>
+							<li class="tag">Vue.js 3</li>
+							<li class="tag">SQL Server 2019</li>
+							<li class="tag">T-SQL Stored Procedures</li>
+							<li class="tag">ZKTeco SDK (Biometric)</li>
+							<li class="tag">ApexCharts</li>
+							<li class="tag">Chart.js</li>
+						</ul>
+						<p class="project-impact"><strong>Impact:</strong> Reduced payroll processing time by 60%</p>
+					</div>
+					<div class="project-card__footer">
+						<p><strong>Live Demo:</strong> <a href="http://16.171.136.48/#/" target="_blank" rel="noopener noreferrer">View HR &amp; Payroll System</a></p>
+					</div>
+				</article>
+			</div>
+		</div>
+	</section>
 
+	<!-- 7. Experience -->
+	<section class="section-pf" id="experience">
+		<div class="container-pf">
+			<div class="section-header reveal">
+				<p class="section-eyebrow">Career</p>
+				<h2 class="section-title">My Experience</h2>
+			</div>
+			<div class="timeline">
+				<article class="timeline__item reveal">
+					<span class="timeline__dot" aria-hidden="true"></span>
+					<p class="timeline__date">Feb 2025 – Present</p>
+					<h3 class="timeline__role">Lead Backend Developer (Current)</h3>
+					<p class="timeline__company"><a href="https://savari.io" target="_blank" rel="noopener noreferrer">Savari</a> — UK Transportation Platform</p>
+					<div class="timeline__body">
+						<p>Leading backend architecture for multi-tenant SaaS platform serving UK transport operators. Architected Turborepo monorepo with Transport Management System, Workshop Management System, and Driver/Technician/Customer mobile apps using Next.js 16 + React 19.</p>
+						<p><strong>Transport Management System:</strong> Quotes, bookings, live dispatch allocations, fleet/driver assignment, automated invoicing, Stripe payments, financial reporting, and telematics (Samsara, Geotab).</p>
+						<p><strong>Workshop Management System:</strong> Dynamic inspection form builder, offline mobile inspections (React Native/Expo), work orders, parts/inventory, maintenance scheduling, and fleet analytics.</p>
+						<p><strong>Platform Modules:</strong> Discount engine with stacked discounts and Stripe Schedules, operator onboarding, Twilio SMS, and Vapi.ai AI Voice quote follow-ups.</p>
+						<p><strong>Achievement:</strong> 99% uptime, 35% faster API response times. Integrated 10+ APIs: Stripe, Twilio, Vapi.ai, Resend, Samsara, Geotab, Google Maps</p>
+						<p><strong>Tech:</strong> Next.js 16, React 19, TypeScript, Convex BaaS, PostgreSQL, React Native, Turborepo</p>
+						<p><strong>Live Projects:</strong> <a href="https://dev.savari.io" target="_blank" rel="noopener noreferrer">dev.savari.io</a> | <a href="https://dev-tms.savari.io" target="_blank" rel="noopener noreferrer">dev-tms.savari.io</a></p>
+					</div>
+				</article>
 
+				<article class="timeline__item reveal">
+					<span class="timeline__dot" aria-hidden="true"></span>
+					<p class="timeline__date">Jun 2024 – Feb 2025</p>
+					<h3 class="timeline__role">Software Engineer</h3>
+					<p class="timeline__company"><a href="https://cfits.co.uk/" target="_blank" rel="noopener noreferrer">Computer Friends IT</a> — UK Taxi Systems</p>
+					<div class="timeline__body">
+						<p>Developed intelligent pricing algorithm increasing revenue by 20%, AI-powered dispatch system reducing wait time by 30%, secure payment processing with Stripe &amp; Wonderful Payments (PCI-DSS compliant), automated email notifications, and real-time driver tracking dashboards.</p>
+						<p><strong>Achievement:</strong> Promoted to Lead Backend Developer at Savari within 8 months</p>
+						<p><strong>Tech:</strong> PHP 8, Laravel 10, React.js, Vue.js 3, Next.js 14, TypeScript, MySQL, Redis, Stripe</p>
+						<p><strong>Live Projects:</strong> <a href="https://www.transfeero.com/en/" target="_blank" rel="noopener noreferrer">transfeero.com</a> | <a href="https://gocab.uk/" target="_blank" rel="noopener noreferrer">gocab.uk</a> | <a href="https://www.chchauffeurs.co.uk/" target="_blank" rel="noopener noreferrer">chchauffeurs.co.uk</a></p>
+					</div>
+				</article>
 
-    <div class="section contact" id="contact">
-        <div id="map" class="map"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="contact-form-card">
-                        <h4 class="contact-title">Send a message</h4>
-                        <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
-                            <input type="hidden" name="access_key" value="92bec9b3-d420-4784-bfe5-aabd8c32d330">
-                            <input type="hidden" name="subject" value="New Contact from Portfolio">
-                            <input type="hidden" name="from_name" value="Portfolio Contact Form">
-                            
-                            <div class="form-group">
-                                <input name="name" class="form-control" type="text" placeholder="Name *" required>
-                            </div>
-                            <div class="form-group">
-                                <input name="email" class="form-control" type="email" placeholder="Email *" required>
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message" class="form-control" placeholder="Message *" rows="7" required></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" class="form-control btn btn-primary" id="submitBtn">Send Message</button>
-                            </div>
-                            <div id="formMessage" style="margin-top: 10px; display: none;"></div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-info-card">
-                        <h4 class="contact-title">Get in touch</h4>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-mobile icon-md"></i>
-                            </div>
-                            <div class="col-10 ">
-                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+923134398641</span></h6>
-                            </div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-map-alt icon-md"></i>
-                            </div>
-                            <div class="col-10">
-                                <h6 class="d-inline">Address :<br> <span class="text-muted">Shahkot near Faisalabad district Nankana Sahib Pakistan.</span></h6>
-                            </div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-envelope icon-md"></i>
-                            </div>
-                            <div class="col-10">
-                                <h6 class="d-inline">Email :<br> <span class="text-muted">yasirsohail191491@gmail.com</span></h6>
-                            </div>
-                        </div>
-                        <ul class="social-icons pt-4">
-                            <li class="social-item"><a class="social-link" href="https://www.facebook.com/yasir.yasirsohail?mibextid=ZbWKwL"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="https://twitter.com/Y191491?t=VD0ibFbAqapTNuI6sSJaRw&s=09"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="https://www.linkedin.com/in/yasir-sohail-85067b178"><i class="ti-google" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="https://instagram.com/yasir191491?igshid=YmJhNjkzNzY="><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="https://github.com/Yasirbajwa191491"><i class="ti-github" aria-hidden="true"></i></a></li>
-                </ul> 
-                    </div>
-                </div>
-            </div>
+				<article class="timeline__item reveal">
+					<span class="timeline__dot" aria-hidden="true"></span>
+					<p class="timeline__date">Jul 2023 – Jun 2024</p>
+					<h3 class="timeline__role">Software Engineer (Promoted)</h3>
+					<p class="timeline__company"><a href="https://sasystems.solutions/" target="_blank" rel="noopener noreferrer">SA Systems Solutions</a></p>
+					<div class="timeline__body">
+						<p>Full-stack development of enterprise HR &amp; Payroll system managing 1,000+ employees across 5 organizations. Integrated ZKTeco biometric devices, automated leave management, multi-level salary approval workflows, recruitment module with interview scheduling, and 12+ interactive dashboards (ApexCharts, Chart.js).</p>
+						<p><strong>Achievement:</strong> Reduced payroll processing time by 60%</p>
+						<p><strong>Tech:</strong> Laravel 9, Vue.js 3, SQL Server 2019, T-SQL, ZKTeco SDK, ApexCharts</p>
+						<p><strong>Live Demo:</strong> <a href="http://16.171.136.48/#/" target="_blank" rel="noopener noreferrer">16.171.136.48</a> (HR &amp; Payroll, Accounting, Procurement)</p>
+					</div>
+				</article>
 
-        </div>
-    </div>
-    <footer class="footer py-3">
-        <div class="container">
-            <p class="small mb-0 text-light">
-                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="https://www.linkedin.com/in/yasir-sohail-85067b178" target="_blank"><span class="text-danger" title="Yasir Portfolio">Yasir191491</span></a> 
-            </p>
-        </div>
-    </footer>
+				<article class="timeline__item reveal">
+					<span class="timeline__dot" aria-hidden="true"></span>
+					<p class="timeline__date">Jul 2022 – Jul 2023</p>
+					<h3 class="timeline__role">Associate Software Engineer</h3>
+					<p class="timeline__company"><a href="https://sasystems.solutions/" target="_blank" rel="noopener noreferrer">SA Systems Solutions</a></p>
+					<div class="timeline__body">
+						<p>Developed enterprise ERP with 12 modules (HRMS, Accounts, Procurement, Inventory, Projects) serving 5 housing societies (3,000+ residents, 1,000+ employees). Built Accounting System with 5-level Chart of Accounts, end-to-end Procurement cycle, real-time Inventory with FIFO valuation, barcode system. Implemented multi-tenant architecture with OAuth2, RBAC, 4-database architecture, real-time features (Laravel Echo + Socket.io).</p>
+						<p><strong>Achievement:</strong> Reduced manual work by 70%, promoted after 12 months</p>
+						<p><strong>Tech:</strong> Laravel 9, Vue.js 2, SQL Server (Multi-DB), OAuth2, Socket.io, Pusher, DomPDF</p>
+						<p><strong>Live Demo:</strong> <a href="http://16.171.136.48/#/" target="_blank" rel="noopener noreferrer">16.171.136.48</a> | <strong>Projects:</strong> Lake City, SA Gardens, Iqbal Garden</p>
+					</div>
+				</article>
 
-	<!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+				<article class="timeline__item reveal">
+					<span class="timeline__dot" aria-hidden="true"></span>
+					<p class="timeline__date">2021 – 2022</p>
+					<h3 class="timeline__role">Software Development Intern</h3>
+					<p class="timeline__company">IT Service Dept, <a href="https://gcuf.edu.pk/" target="_blank" rel="noopener noreferrer">GCUF</a></p>
+					<div class="timeline__body">
+						<p>Student Portal System as Final Year Project in 2-member Agile team. Created modules: student records, course outlines, timetable generation, assignment submission with deadline tracking, QEC faculty ranking, fee management, library integration, secure authentication. Applied Agile/Scrum methodology with Git version control.</p>
+						<p><strong>Tech:</strong> PHP 7, Laravel 8, React.js, MySQL 8, REST APIs, JWT, Bootstrap, Git</p>
+					</div>
+				</article>
+			</div>
+		</div>
+	</section>
 
-    <!-- bootstrap 3 affix -->
-    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+	<!-- 8. Education + Skills -->
+	<section class="section-pf section-pf--alt" id="education">
+		<div class="container-pf">
+			<div class="section-header reveal">
+				<p class="section-eyebrow">Background</p>
+				<h2 class="section-title">Education &amp; Skills</h2>
+			</div>
+			<div class="edu-skills">
+				<div class="edu-list reveal" id="resume">
+					<article class="edu-item">
+						<p class="edu-item__dates">2018 – 2022</p>
+						<h3>Bachelor of Science in Computer Science</h3>
+						<p>Completed BS Computer Science from <a href="https://gcuf.edu.pk/" target="_blank" rel="noopener noreferrer">Government College University Faisalabad (GCUF)</a> with 3.65/4.0 CGPA. Graduated with strong foundation in software engineering, algorithms, and database systems.</p>
+					</article>
+					<article class="edu-item">
+						<p class="edu-item__dates">2016 – 2018</p>
+						<h3>Intermediate</h3>
+						<p>Completed FSC Pre Engineering from Superior Group of College Shahkot with 838 marks.</p>
+					</article>
+					<article class="edu-item">
+						<p class="edu-item__dates">2014 – 2016</p>
+						<h3>High School Degree</h3>
+						<p>Completed Hight School with 920 marks.</p>
+					</article>
+				</div>
 
-    <!-- Isotope  -->
-    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
-    
-    <!-- Google mpas -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+				<div class="skills-panel reveal" id="skills">
+					<div class="skills-group">
+						<h4>Frontend</h4>
+						<div class="skill-row">
+							<div class="skill-row__head"><span class="skill-row__name">TypeScript &amp; JavaScript</span><span class="skill-row__pct">95%</span></div>
+							<div class="skill-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" aria-label="TypeScript and JavaScript 95%"><div class="skill-bar__fill" style="width:95%"></div></div>
+						</div>
+						<div class="skill-row">
+							<div class="skill-row__head"><span class="skill-row__name">React JS &amp; Next.js</span><span class="skill-row__pct">95%</span></div>
+							<div class="skill-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" aria-label="React JS and Next.js 95%"><div class="skill-bar__fill" style="width:95%"></div></div>
+						</div>
+						<div class="skill-row">
+							<div class="skill-row__head"><span class="skill-row__name">Vue.js &amp; Nuxt.js</span><span class="skill-row__pct">90%</span></div>
+							<div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="Vue.js and Nuxt.js 90%"><div class="skill-bar__fill" style="width:90%"></div></div>
+						</div>
+					</div>
+					<div class="skills-group">
+						<h4>Backend</h4>
+						<div class="skill-row">
+							<div class="skill-row__head"><span class="skill-row__name">Laravel &amp; PHP</span><span class="skill-row__pct">90%</span></div>
+							<div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="Laravel and PHP 90%"><div class="skill-bar__fill" style="width:90%"></div></div>
+						</div>
+						<div class="skill-row">
+							<div class="skill-row__head"><span class="skill-row__name">Node.js &amp; Express.js</span><span class="skill-row__pct">85%</span></div>
+							<div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="Node.js and Express.js 85%"><div class="skill-bar__fill" style="width:85%"></div></div>
+						</div>
+						<div class="skill-row">
+							<div class="skill-row__head"><span class="skill-row__name">Convex</span><span class="skill-row__pct">90%</span></div>
+							<div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="Convex 90%"><div class="skill-bar__fill" style="width:90%"></div></div>
+						</div>
+					</div>
+					<div class="skills-group">
+						<h4>Mobile</h4>
+						<div class="skill-row">
+							<div class="skill-row__head"><span class="skill-row__name">React Native &amp; Expo</span><span class="skill-row__pct">85%</span></div>
+							<div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="React Native and Expo 85%"><div class="skill-bar__fill" style="width:85%"></div></div>
+						</div>
+						<div class="skill-row">
+							<div class="skill-row__head"><span class="skill-row__name">EAS &amp; Mobile Builds</span><span class="skill-row__pct">80%</span></div>
+							<div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="EAS and Mobile Builds 80%"><div class="skill-bar__fill" style="width:80%"></div></div>
+						</div>
+						<div class="skill-row">
+							<div class="skill-row__head"><span class="skill-row__name">Biometrics, Push &amp; QR</span><span class="skill-row__pct">80%</span></div>
+							<div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Biometrics Push and QR 80%"><div class="skill-bar__fill" style="width:80%"></div></div>
+						</div>
+					</div>
+					<div class="skills-group">
+						<h4>Databases</h4>
+						<div class="skill-row">
+							<div class="skill-row__head"><span class="skill-row__name">PostgreSQL &amp; MySQL</span><span class="skill-row__pct">90%</span></div>
+							<div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="PostgreSQL and MySQL 90%"><div class="skill-bar__fill" style="width:90%"></div></div>
+						</div>
+						<div class="skill-row">
+							<div class="skill-row__head"><span class="skill-row__name">SQL Server &amp; MongoDB</span><span class="skill-row__pct">85%</span></div>
+							<div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="SQL Server and MongoDB 85%"><div class="skill-bar__fill" style="width:85%"></div></div>
+						</div>
+					</div>
+					<div class="skills-group">
+						<h4>AI / Integrations / Infrastructure</h4>
+						<div class="skill-row">
+							<div class="skill-row__head"><span class="skill-row__name">AI/LLM &amp; Semantic Search</span><span class="skill-row__pct">85%</span></div>
+							<div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="AI LLM and Semantic Search 85%"><div class="skill-bar__fill" style="width:85%"></div></div>
+						</div>
+						<div class="skill-row">
+							<div class="skill-row__head"><span class="skill-row__name">Vapi Voice Agents</span><span class="skill-row__pct">85%</span></div>
+							<div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="Vapi Voice Agents 85%"><div class="skill-bar__fill" style="width:85%"></div></div>
+						</div>
+						<div class="skill-row">
+							<div class="skill-row__head"><span class="skill-row__name">Stripe &amp; Payment Integration</span><span class="skill-row__pct">90%</span></div>
+							<div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="Stripe and Payment Integration 90%"><div class="skill-bar__fill" style="width:90%"></div></div>
+						</div>
+						<div class="skill-row">
+							<div class="skill-row__head"><span class="skill-row__name">Docker &amp; CI/CD</span><span class="skill-row__pct">80%</span></div>
+							<div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Docker and CI/CD 80%"><div class="skill-bar__fill" style="width:80%"></div></div>
+						</div>
+						<div class="skill-row">
+							<div class="skill-row__head"><span class="skill-row__name">Turborepo &amp; Monorepo</span><span class="skill-row__pct">85%</span></div>
+							<div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="Turborepo and Monorepo 85%"><div class="skill-bar__fill" style="width:85%"></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- ThapaTechnical js -->
-    <script src="assets/js/myjava.js"></script>
+	<!-- 9. Languages -->
+	<section class="section-pf" id="languages">
+		<div class="container-pf">
+			<div class="section-header reveal">
+				<p class="section-eyebrow">Communication</p>
+				<h2 class="section-title">Languages</h2>
+			</div>
+			<div class="lang-grid">
+				<article class="lang-card reveal">
+					<h3>Urdu</h3>
+					<div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Urdu 80%"><div class="skill-bar__fill" style="width:80%"></div></div>
+				</article>
+				<article class="lang-card reveal">
+					<h3>English</h3>
+					<div class="skill-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" aria-label="English 65%"><div class="skill-bar__fill" style="width:65%"></div></div>
+				</article>
+				<article class="lang-card reveal">
+					<h3>Punjabi</h3>
+					<div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="Punjabi 90%"><div class="skill-bar__fill" style="width:90%"></div></div>
+				</article>
+			</div>
+		</div>
+	</section>
 
-    <!-- Contact Form Handler -->
-    <script>
-    document.getElementById('contactForm').addEventListener('submit', async function(e) {
-        e.preventDefault();
-        
-        const submitBtn = document.getElementById('submitBtn');
-        const formMessage = document.getElementById('formMessage');
-        const form = e.target;
-        
-        // Get form data
-        const formData = new FormData(form);
-        
-        // Disable button and show loading
-        submitBtn.disabled = true;
-        submitBtn.textContent = 'Sending...';
-        formMessage.style.display = 'none';
-        
-        try {
-            const response = await fetch('https://api.web3forms.com/submit', {
-                method: 'POST',
-                body: formData
-            });
-            
-            const data = await response.json();
-            
-            if (data.success) {
-                formMessage.textContent = '✅ Message sent successfully!';
-                formMessage.style.color = '#28a745';
-                formMessage.style.display = 'block';
-                form.reset();
-            } else {
-                formMessage.textContent = '❌ Failed to send message. Please try again.';
-                formMessage.style.color = '#dc3545';
-                formMessage.style.display = 'block';
-            }
-        } catch (error) {
-            formMessage.textContent = '❌ Failed to send message. Please try again.';
-            formMessage.style.color = '#dc3545';
-            formMessage.style.display = 'block';
-        } finally {
-            submitBtn.disabled = false;
-            submitBtn.textContent = 'Send Message';
-        }
-    });
-    </script>
+	<!-- 10. Real-World / Production Systems -->
+	<section class="section-pf section-pf--alt" id="production">
+		<div class="container-pf">
+			<div class="section-header reveal">
+				<p class="section-eyebrow">Delivery</p>
+				<h2 class="section-title">Real-World Projects Delivered</h2>
+				<p class="section-lead">Major Production Systems</p>
+			</div>
+			<div class="prod-grid">
+				<article class="prod-item reveal">
+					<h3>Savari Transportation</h3>
+					<p>Transport Management System (quotes, dispatch, finance) and Workshop Management System (inspections, work orders, fleet maintenance), plus discount engine, SMS and AI voice add-ons.</p>
+					<a class="btn-pf btn-pf--outline btn-pf--sm" href="https://dev-tms.savari.io/" target="_blank" rel="noopener noreferrer">View Demo</a>
+				</article>
+				<article class="prod-item reveal">
+					<h3>AI Ecommerce Platform</h3>
+					<p>Next.js storefront, admin dashboard, and React Native/Expo mobile app on a shared Convex backend — hybrid/visual search, native Stripe PaymentSheet, QR tracking, biometric App Lock, push notifications, receipt share, cancel/reorder, and offline-capable browsing.</p>
+					<a class="btn-pf btn-pf--outline btn-pf--sm" href="https://ecommerce-nextjs-yasir.vercel.app/" target="_blank" rel="noopener noreferrer">View Store</a>
+				</article>
+				<article class="prod-item reveal">
+					<h3>UK Taxi Management</h3>
+					<p>Intelligent pricing, AI dispatch, payment processing.</p>
+					<a class="btn-pf btn-pf--outline btn-pf--sm" href="https://www.transfeero.com/en/" target="_blank" rel="noopener noreferrer">View Demo</a>
+				</article>
+				<article class="prod-item reveal">
+					<h3>Enterprise ERP (Lake City, SA Gardens, Iqbal Garden)</h3>
+					<p>Finance (Requisition, PO, Invoice, GRN), HRMS (Salary, Loans, Attendance, Leaves), Payroll (Arrears, Bonuses, Tax), Recruitment.</p>
+					<a class="btn-pf btn-pf--outline btn-pf--sm" href="http://16.171.136.48/#/" target="_blank" rel="noopener noreferrer">View Demo</a>
+				</article>
+				<article class="prod-item prod-item--wide reveal">
+					<h3>HR &amp; Payroll</h3>
+					<p>1,000+ employees, biometric integration, 12+ dashboards.</p>
+					<a class="btn-pf btn-pf--outline btn-pf--sm" href="http://16.171.136.48/#/" target="_blank" rel="noopener noreferrer">View Demo</a>
+				</article>
+			</div>
+			<p class="prod-metrics reveal"><strong>Metrics:</strong> 5,000+ users, 99% uptime, 35-70% efficiency gains, 20% revenue increase</p>
+		</div>
+	</section>
 
+	<!-- 11. Availability / Hire Me -->
+	<section class="section-pf" id="availability">
+		<div class="container-pf">
+			<div class="avail-banner reveal">
+				<div>
+					<h2>I Am Available For Remotely /Office Work</h2>
+				</div>
+				<div class="btn-group-pf">
+					<a class="btn-pf btn-pf--primary" href="https://www.linkedin.com/in/yasir-sohail-85067b178" target="_blank" rel="noopener noreferrer">Hire me</a>
+					<a class="btn-pf btn-pf--ghost-light" href="yasir_resume.pdf" target="_blank" rel="noopener noreferrer"><i class="ti-download" aria-hidden="true"></i> Download Resume</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- 12. Contact -->
+	<section class="section-pf section-pf--alt" id="contact">
+		<div class="container-pf">
+			<div class="contact-layout">
+				<div class="contact-info reveal">
+					<p class="section-eyebrow">Contact</p>
+					<h2>Let's work together</h2>
+					<p>Get in touch</p>
+					<ul class="contact-details">
+						<li>
+							<i class="ti-mobile" aria-hidden="true"></i>
+							<div>
+								<strong>Phone</strong>
+								<span><a href="tel:+923134398641">+923134398641</a></span>
+							</div>
+						</li>
+						<li>
+							<i class="ti-envelope" aria-hidden="true"></i>
+							<div>
+								<strong>Email</strong>
+								<span><a href="mailto:yasirsohail191491@gmail.com">yasirsohail191491@gmail.com</a></span>
+							</div>
+						</li>
+						<li>
+							<i class="ti-map-alt" aria-hidden="true"></i>
+							<div>
+								<strong>Address</strong>
+								<span>Shahkot near Faisalabad district Nankana Sahib Pakistan.</span>
+							</div>
+						</li>
+					</ul>
+					<ul class="social-row" aria-label="Social profiles">
+						<li><a href="https://www.facebook.com/yasir.yasirsohail?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="https://twitter.com/Y191491?t=VD0ibFbAqapTNuI6sSJaRw&amp;s=09" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/yasir-sohail-85067b178" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+						<li><a href="https://instagram.com/yasir191491?igshid=YmJhNjkzNzY=" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="https://github.com/Yasirbajwa191491" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="ti-github" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="contact-form-card reveal">
+					<h3>Send a message</h3>
+					<form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+						<input type="hidden" name="access_key" value="92bec9b3-d420-4784-bfe5-aabd8c32d330">
+						<input type="hidden" name="subject" value="New Contact from Portfolio">
+						<input type="hidden" name="from_name" value="Portfolio Contact Form">
+
+						<div class="form-group-pf">
+							<label for="contactName">Name *</label>
+							<input id="contactName" name="name" class="form-control-pf" type="text" placeholder="Your name" required autocomplete="name">
+						</div>
+						<div class="form-group-pf">
+							<label for="contactEmail">Email *</label>
+							<input id="contactEmail" name="email" class="form-control-pf" type="email" placeholder="you@example.com" required autocomplete="email">
+						</div>
+						<div class="form-group-pf">
+							<label for="contactMessage">Message *</label>
+							<textarea id="contactMessage" name="message" class="form-control-pf" placeholder="How can I help?" rows="6" required></textarea>
+						</div>
+						<button type="submit" class="btn-pf btn-pf--primary" id="submitBtn" style="width:100%;">Send Message</button>
+						<div id="formMessage" class="form-message" role="status" aria-live="polite"></div>
+					</form>
+				</div>
+			</div>
+
+			<div class="contact-map-wrap reveal" aria-label="Map">
+				<div id="map" class="map"></div>
+			</div>
+		</div>
+	</section>
+
+	<!-- 13. Footer -->
+	<footer class="site-footer">
+		<div class="container-pf">
+			<p class="small mb-0">
+				&copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger" aria-hidden="true"></i> By <a href="https://www.linkedin.com/in/yasir-sohail-85067b178" target="_blank" rel="noopener noreferrer"><span title="Yasir Portfolio">Yasir191491</span></a>
+			</p>
+		</div>
+	</footer>
+
+	<script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+	<script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&amp;callback=initMap"></script>
+	<script src="assets/js/myjava.js"></script>
+
+	<script>
+	(function () {
+		var nav = document.getElementById('siteNav');
+		var toggle = document.getElementById('navToggle');
+		var links = document.getElementById('navLinks');
+
+		function onScroll() {
+			if (!nav) return;
+			nav.classList.toggle('is-scrolled', window.scrollY > 12);
+		}
+		window.addEventListener('scroll', onScroll, { passive: true });
+		onScroll();
+
+		if (toggle && links) {
+			toggle.addEventListener('click', function () {
+				var open = links.classList.toggle('is-open');
+				toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+			});
+			links.querySelectorAll('a').forEach(function (a) {
+				a.addEventListener('click', function () {
+					links.classList.remove('is-open');
+					toggle.setAttribute('aria-expanded', 'false');
+				});
+			});
+		}
+
+		var reveals = document.querySelectorAll('.reveal');
+		if ('IntersectionObserver' in window) {
+			var io = new IntersectionObserver(function (entries) {
+				entries.forEach(function (entry) {
+					if (entry.isIntersecting) {
+						entry.target.classList.add('is-visible');
+						io.unobserve(entry.target);
+					}
+				});
+			}, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+			reveals.forEach(function (el) { io.observe(el); });
+		} else {
+			reveals.forEach(function (el) { el.classList.add('is-visible'); });
+		}
+
+		document.getElementById('contactForm').addEventListener('submit', async function (e) {
+			e.preventDefault();
+			var submitBtn = document.getElementById('submitBtn');
+			var formMessage = document.getElementById('formMessage');
+			var form = e.target;
+			var formData = new FormData(form);
+
+			submitBtn.disabled = true;
+			submitBtn.textContent = 'Sending...';
+			formMessage.style.display = 'none';
+
+			try {
+				var response = await fetch('https://api.web3forms.com/submit', {
+					method: 'POST',
+					body: formData
+				});
+				var data = await response.json();
+				if (data.success) {
+					formMessage.textContent = 'Message sent successfully!';
+					formMessage.style.color = '#15803d';
+					formMessage.style.display = 'block';
+					form.reset();
+				} else {
+					formMessage.textContent = 'Failed to send message. Please try again.';
+					formMessage.style.color = '#dc2626';
+					formMessage.style.display = 'block';
+				}
+			} catch (error) {
+				formMessage.textContent = 'Failed to send message. Please try again.';
+				formMessage.style.color = '#dc2626';
+				formMessage.style.display = 'block';
+			} finally {
+				submitBtn.disabled = false;
+				submitBtn.textContent = 'Send Message';
+			}
+		});
+	})();
+	</script>
 </body>
 </html>
