@@ -24,11 +24,12 @@ My focus is practical AI: reliable orchestration, measurable outcomes, and stron
 ## Core Technical Strengths
 
 - Frontend: React 19, Next.js 16, Vue.js 3, Nuxt.js, TypeScript, Tailwind, shadcn/ui
+- Mobile: React Native, Expo, EAS, Stripe PaymentSheet, biometrics, push, QR scan
 - Backend: Laravel, Node.js, Convex, API architecture, webhook-driven workflows
 - Databases: PostgreSQL, MySQL, SQL Server, MongoDB, Redis
 - Payments and Billing: Stripe, Wonderful, PayPal, subscription lifecycle, metered billing
-- Integrations: Twilio, Vapi, Resend, Google Maps, Samsara, Geotab
-- DevOps: Docker, GitHub Actions CI/CD, Vercel, AWS (EC2/S3), Turborepo monorepos
+- Integrations: Twilio, Vapi, Resend, Expo Push, Google Maps, Samsara, Geotab
+- DevOps: Docker, GitHub Actions CI/CD, Vercel, AWS (EC2/S3), Turborepo / npm workspaces monorepos
 
 ---
 
@@ -54,19 +55,21 @@ Multi-tenant SaaS for UK transport operators with 5 applications and strong oper
 
 ### AI-Powered Ecommerce Platform
 
-Built a production-grade ecommerce system with Next.js + Convex and deep AI capabilities.
+Built a production-grade full-stack ecommerce system with Next.js storefront + admin, Expo/React Native mobile app, and a shared Convex backend.
 
-**Project Learning and Modules:**
-- Hybrid semantic product search (vector + keyword ranking)
-- AI product recommendations and product intelligence enrichment
-- AI review intelligence (sentiment, moderation, topic extraction, semantic review search)
-- AI-assisted reply generation for customer reviews
-- Voice shopping assistant with guided conversational flows
-- AI outbound review-call workflow after delivery
-- AI product content and SEO generation
-- AI-assisted email campaign generation and segmentation
-- Admin AI Business Copilot for revenue, inventory, and trend insights
-- Multi-provider AI architecture for flexibility and cost/performance control
+**Commerce & Mobile Modules:**
+- Hybrid semantic / visual product search and AI recommendations
+- Stripe Checkout (web) + native Stripe PaymentSheet (mobile), COD, cancel order, mobile reorder
+- Secure QR for product, order tracking, payment, package/delivery; admin staff scan
+- Mobile receipt PNG download/share with embedded trackable QR
+- Expo push + in-app notification center for order/payment alerts
+- Biometric App Lock (Face ID / fingerprint) for local app privacy
+- Offline-first catalog browsing with online-only checkout and payments
+
+**AI Modules:**
+- Voice shopping assistant (Vapi, web), outbound review calls after delivery
+- Review intelligence (sentiment, moderation, AI replies), product content and email campaign AI
+- Admin AI Business Copilot; multi-provider LLM architecture (Gemini, Groq, OpenRouter, OpenAI, Anthropic)
 
 ### UK Taxi Management System
 
